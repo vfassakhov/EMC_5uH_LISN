@@ -1,23 +1,162 @@
-(module kicad:SOT23-DIODEDUAL (layer F.Cu) (tedit 5AA056F5)
-  (descr SOT23)
-  (tags "CMS SOT")
-  (attr smd)
-  (fp_text reference D4 (at 0 -1.25 90) (layer F.SilkS)
-    (effects (font (size 0.5 0.5) (thickness 0.125)))
-  )
-  (fp_text value SOT23-DIODEDUAL (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 0.2 0.2) (thickness 0.05)))
-  )
-  (fp_line (start -1.524 0.381) (end -1.524 -0.381) (layer F.SilkS) (width 0.11938))
-  (fp_line (start 1.524 0.381) (end -1.524 0.381) (layer F.SilkS) (width 0.11938))
-  (fp_line (start 1.524 -0.381) (end 1.524 0.381) (layer F.SilkS) (width 0.11938))
-  (fp_line (start -1.524 -0.381) (end 1.524 -0.381) (layer F.SilkS) (width 0.11938))
-  (pad 3 smd rect (at 0 1.016) (size 0.9144 0.9144) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at 0.889 -1.016) (size 0.9144 0.9144) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -0.889 -1.016) (size 0.9144 0.9144) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/D_SOT-23.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "SOT23-DIODEDUAL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT23")
+	(tags "CMS SOT")
+	(property "Reference" "D4"
+		(at 0 -2.05 180)
+		(layer "F.SilkS")
+		(uuid "0fa36153-1f4f-4c83-b2e4-3811c00b874f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SOT23-DIODEDUAL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb286851-1d46-4e82-a138-316d4f948f53")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b22718bc-a239-4cd0-8cf2-bd916b40cb0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d897ed94-fb74-4a64-97be-c1791c90094b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2615e2c1-551b-431d-bf3c-fefe654b2121")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.524 -0.381)
+		(end 1.524 -0.381)
+		(stroke
+			(width 0.11938)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24b4c6c1-f3dc-4e4e-a7db-7ce5589d2324")
+	)
+	(fp_line
+		(start -1.524 0.381)
+		(end -1.524 -0.381)
+		(stroke
+			(width 0.11938)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41635665-ba23-4e6a-ab15-6257497a2039")
+	)
+	(fp_line
+		(start 1.524 -0.381)
+		(end 1.524 0.381)
+		(stroke
+			(width 0.11938)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "389964ef-4cb7-4070-ad95-2a9cb31303e3")
+	)
+	(fp_line
+		(start 1.524 0.381)
+		(end -1.524 0.381)
+		(stroke
+			(width 0.11938)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c06e49b-f723-424e-81af-69b43698b34f")
+	)
+	(fp_rect
+		(start -1.625 -1.575)
+		(end 1.625 1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c7d834a5-90ed-4eda-a3b1-c04ffbf2cce3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.425 0.575 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8d2ae8f-4f8c-4bac-951b-8897d955bdef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.889 -1.016)
+		(size 0.9144 0.9144)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "564b8162-e2fe-4062-babd-563d183dd6fa")
+	)
+	(pad "2" smd rect
+		(at -0.889 -1.016)
+		(size 0.9144 0.9144)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "afdc36a8-0a9c-4337-9d07-daf64cb0bd66")
+	)
+	(pad "3" smd rect
+		(at 0 1.016)
+		(size 0.9144 0.9144)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "240ab4f1-a7dc-44d2-adda-bcc32f34dc43")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOT-23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

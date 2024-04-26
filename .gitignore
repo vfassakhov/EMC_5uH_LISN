@@ -1,0 +1,11 @@
+/build
+*.pro-bak
+*.bak
+*.sch-bak
+fp-info-cache
+*.kicad_pcb-bak
+/5uH_LISN-backups
+*.kicad_pro-bak
+*.kicad_prl-bak
+*.kicad_sch-bak
+

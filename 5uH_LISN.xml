@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/xami/Desktop/Projects/EMC_5uH_LISN/5uH_LISN.kicad_sch</source>
+    <date>2024-04-26T19:38:27+0300</date>
+    <tool>Eeschema 8.0.1-8.0.1-1~ubuntu22.04.1</tool>
+    <textvar name="git_tag">V1_R1</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Dual 5uH LISN</title>
+        <company/>
+        <rev>V1_R1</rev>
+        <date>2021-12-05</date>
+        <source>5uH_LISN.kicad_sch</source>
+        <comment number="1" value="Credits to: Jay_Diddy_B &amp; Noy (eevblog forum)"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">KRM55WR72A226MH01L</field>
+        <field name="Footprint">Capacitor_SMD:C_2220_5650Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="KRM55WR72A226MH01L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ff0cbbe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_2220_5650Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">KRM55WR72A226MH01L</field>
+        <field name="Footprint">Capacitor_SMD:C_2220_5650Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="KRM55WR72A226MH01L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8310</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC1210KKX7R0BB225</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC1210KKX7R0BB225"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005feee91f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC1210KKX7R0BB225</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC1210KKX7R0BB225"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8338</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC1210KKX7R0BB225</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC1210KKX7R0BB225"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005feeed43</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC1210KKX7R0BB225</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC1210KKX7R0BB225"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f832e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC0805KKX7R0BB474</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC0805KKX7R0BB474"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2f01</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC0805KKX7R0BB474</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC0805KKX7R0BB474"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f80fe</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC0805KKX7R0BB474</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC0805KKX7R0BB474"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2f0b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC0805KKX7R0BB474</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC0805KKX7R0BB474"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8108</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC1206KKX7RYBB104</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC1206KKX7RYBB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fc01692</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Part number">CC1206KKX7RYBB104</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part number" value="CC1206KKX7RYBB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8212</tstamps>
+    </comp>
+    <comp ref="CASE1">
+      <value>B013BK</value>
+      <footprint>5uH_LISN:B013BK</footprint>
+      <datasheet>https://static.chipdip.ru/lib/273/DOC000273998.pdf</datasheet>
+      <description>B013BK, Housing for electronic equipment 114x64x30mm, metal, black</description>
+      <fields>
+        <field name="Part number">B013BK</field>
+        <field name="Footprint">5uH_LISN:B013BK</field>
+        <field name="Datasheet">https://static.chipdip.ru/lib/273/DOC000273998.pdf</field>
+        <field name="Description">B013BK, Housing for electronic equipment 114x64x30mm, metal, black</field>
+      </fields>
+      <libsource lib="Gainta" part="B013BK" description="B013BK, Housing for electronic equipment 114x64x30mm, metal, black"/>
+      <property name="Part number" value="B013BK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80ea0b85-250e-4d7d-b89a-239de61ccc9e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAV99,215</value>
+      <footprint>5uH_LISN:SOT23-DIODEDUAL</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/916/BAV99-3081368.pdf</datasheet>
+      <description>High-speed switching diode</description>
+      <fields>
+        <field name="Part number">BAV99,215</field>
+        <field name="Footprint">5uH_LISN:SOT23-DIODEDUAL</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/916/BAV99-3081368.pdf</field>
+        <field name="Description">High-speed switching diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Dual_Series_AKC_Parallel" description="Dual diode, anode/cathode/center"/>
+      <property name="Part number" value="BAV99,215"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbb0b552-fb08-401b-8d69-530f2e464c49</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAV99,215</value>
+      <footprint>5uH_LISN:SOT23-DIODEDUAL</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/916/BAV99-3081368.pdf</datasheet>
+      <description>High-speed switching diode</description>
+      <fields>
+        <field name="Part number">BAV99,215</field>
+        <field name="Footprint">5uH_LISN:SOT23-DIODEDUAL</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/916/BAV99-3081368.pdf</field>
+        <field name="Description">High-speed switching diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Dual_Series_AKC_Parallel" description="Dual diode, anode/cathode/center"/>
+      <property name="Part number" value="BAV99,215"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5957a00-48e7-4630-b5ec-00881c7bba21</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAV99,215</value>
+      <footprint>5uH_LISN:SOT23-DIODEDUAL</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/916/BAV99-3081368.pdf</datasheet>
+      <description>High-speed switching diode</description>
+      <fields>
+        <field name="Part number">BAV99,215</field>
+        <field name="Footprint">5uH_LISN:SOT23-DIODEDUAL</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/916/BAV99-3081368.pdf</field>
+        <field name="Description">High-speed switching diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Dual_Series_AKC_Parallel" description="Dual diode, anode/cathode/center"/>
+      <property name="Part number" value="BAV99,215"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e295006-012e-4c5f-853e-07dac10c3673</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAV99,215</value>
+      <footprint>5uH_LISN:SOT23-DIODEDUAL</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/916/BAV99-3081368.pdf</datasheet>
+      <description>High-speed switching diode</description>
+      <fields>
+        <field name="Part number">BAV99,215</field>
+        <field name="Footprint">5uH_LISN:SOT23-DIODEDUAL</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/916/BAV99-3081368.pdf</field>
+        <field name="Description">High-speed switching diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Dual_Series_AKC_Parallel" description="Dual diode, anode/cathode/center"/>
+      <property name="Part number" value="BAV99,215"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77a23894-a581-4eb1-a3d6-4963608f8b04</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9a13537-6c05-4870-8256-3b461effb0cf</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d4f0cb8-ae8d-4d10-833f-89795d90046b</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <description>Fiducial Marker</description>
+      <fields>
+        <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a9ab73f-c257-4797-8096-964768df667f</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MOUNT-PAD-ROUND4.1</value>
+      <footprint>5uH_LISN:4,1-PAD</footprint>
+      <fields>
+        <field name="Footprint">5uH_LISN:4,1-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="5uH_LISN-eagle-import" part="MOUNT-PAD-ROUND4.1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000ec459546</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MOUNT-PAD-ROUND4.1</value>
+      <footprint>5uH_LISN:4,1-PAD</footprint>
+      <fields>
+        <field name="Footprint">5uH_LISN:4,1-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="5uH_LISN-eagle-import" part="MOUNT-PAD-ROUND4.1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000a5e23240</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MOUNT-PAD-ROUND4.1</value>
+      <footprint>5uH_LISN:4,1-PAD</footprint>
+      <fields>
+        <field name="Footprint">5uH_LISN:4,1-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="5uH_LISN-eagle-import" part="MOUNT-PAD-ROUND4.1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000df741c4c</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MOUNT-PAD-ROUND4.1</value>
+      <footprint>5uH_LISN:4,1-PAD</footprint>
+      <fields>
+        <field name="Footprint">5uH_LISN:4,1-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="5uH_LISN-eagle-import" part="MOUNT-PAD-ROUND4.1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00009105e348</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_SMA</value>
+      <footprint>Connector_Coaxial:SMB_Jack_Vertical</footprint>
+      <datasheet>https://static.chipdip.ru/lib/325/DOC004325064.pdf</datasheet>
+      <description>SMA PCB THT JACK STRAIGHT WR-SMA</description>
+      <fields>
+        <field name="Part number">KLS1-SMA001</field>
+        <field name="Footprint">Connector_Coaxial:SMB_Jack_Vertical</field>
+        <field name="Datasheet">https://static.chipdip.ru/lib/325/DOC004325064.pdf</field>
+        <field name="Description">SMA PCB THT JACK STRAIGHT WR-SMA</field>
+      </fields>
+      <libsource lib="" part="Conn_Coaxial_1" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <property name="Part number" value="KLS1-SMA001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC coaxial connector CINCH RCA"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000604b0bb4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_SMA</value>
+      <footprint>Connector_Coaxial:SMB_Jack_Vertical</footprint>
+      <datasheet>https://static.chipdip.ru/lib/325/DOC004325064.pdf</datasheet>
+      <description>SMA PCB THT JACK STRAIGHT WR-SMA</description>
+      <fields>
+        <field name="Part number">KLS1-SMA001</field>
+        <field name="Footprint">Connector_Coaxial:SMB_Jack_Vertical</field>
+        <field name="Datasheet">https://static.chipdip.ru/lib/325/DOC004325064.pdf</field>
+        <field name="Description">SMA PCB THT JACK STRAIGHT WR-SMA</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <property name="Part number" value="KLS1-SMA001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC coaxial connector CINCH RCA"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060451daa</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>BANANA_CONN</value>
+      <footprint>5uH_LISN:6,1-PAD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</datasheet>
+      <description>Changzhou Amass Elec</description>
+      <fields>
+        <field name="Part number">28.230</field>
+        <field name="Footprint">5uH_LISN:6,1-PAD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</field>
+        <field name="Description">Changzhou Amass Elec</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="BANANA_CONN" description="Changzhou Amass Elec"/>
+      <property name="Part number" value="28.230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="28.230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9b21854-6774-46f3-8e65-a537da805c1d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>BANANA_CONN</value>
+      <footprint>5uH_LISN:6,1-PAD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</datasheet>
+      <description>Changzhou Amass Elec</description>
+      <fields>
+        <field name="Part number">28.230</field>
+        <field name="Footprint">5uH_LISN:6,1-PAD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</field>
+        <field name="Description">Changzhou Amass Elec</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="BANANA_CONN" description="Changzhou Amass Elec"/>
+      <property name="Part number" value="28.230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="28.230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd938a05-eb2c-4b6f-a624-8453959f57c0</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>BANANA_CONN</value>
+      <footprint>5uH_LISN:6,1-PAD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</datasheet>
+      <description>Changzhou Amass Elec</description>
+      <fields>
+        <field name="Part number">28.230</field>
+        <field name="Footprint">5uH_LISN:6,1-PAD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</field>
+        <field name="Description">Changzhou Amass Elec</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="BANANA_CONN" description="Changzhou Amass Elec"/>
+      <property name="Part number" value="28.230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="28.230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6beed25c-ca68-4b29-bf9b-8e48016789a5</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>BANANA_CONN</value>
+      <footprint>5uH_LISN:6,1-PAD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</datasheet>
+      <description>Changzhou Amass Elec</description>
+      <fields>
+        <field name="Part number">28.230</field>
+        <field name="Footprint">5uH_LISN:6,1-PAD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</field>
+        <field name="Description">Changzhou Amass Elec</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="BANANA_CONN" description="Changzhou Amass Elec"/>
+      <property name="Part number" value="28.230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="28.230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34f65160-a867-4d2e-a172-b8f075664efa</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>BANANA_CONN</value>
+      <footprint>5uH_LISN:6,1-PAD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</datasheet>
+      <description>Changzhou Amass Elec</description>
+      <fields>
+        <field name="Part number">28.230</field>
+        <field name="Footprint">5uH_LISN:6,1-PAD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</field>
+        <field name="Description">Changzhou Amass Elec</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="BANANA_CONN" description="Changzhou Amass Elec"/>
+      <property name="Part number" value="28.230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="28.230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edf61738-6a61-427f-ba4e-59c3a698eed6</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>BANANA_CONN</value>
+      <footprint>5uH_LISN:6,1-PAD</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</datasheet>
+      <description>Changzhou Amass Elec</description>
+      <fields>
+        <field name="Part number">28.230</field>
+        <field name="Footprint">5uH_LISN:6,1-PAD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</field>
+        <field name="Description">Changzhou Amass Elec</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="BANANA_CONN" description="Changzhou Amass Elec"/>
+      <property name="Part number" value="28.230"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="28.230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64cb817f-ad8f-468f-a279-b121884a50ec</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8030</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fb99b8a</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fb99b94</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f803a</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fb99b9e</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8044</tstamps>
+    </comp>
+    <comp ref="L7">
+      <value>1mH</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TDK-NLFV32T-102K-EF_C114766.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">NLFV32T-102K-EF</field>
+        <field name="Footprint">Inductor_SMD:L_1210_3225Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TDK-NLFV32T-102K-EF_C114766.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="NLFV32T-102K-EF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81f2ba54-08e9-4af7-bbe0-62ef06b371c6</tstamps>
+    </comp>
+    <comp ref="L8">
+      <value>1mH</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TDK-NLFV32T-102K-EF_C114766.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">NLFV32T-102K-EF</field>
+        <field name="Footprint">Inductor_SMD:L_1210_3225Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TDK-NLFV32T-102K-EF_C114766.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="NLFV32T-102K-EF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94a7fba1-32fb-4e2c-b022-3c1ad14d21ff</tstamps>
+    </comp>
+    <comp ref="L9">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fb99ba8</tstamps>
+    </comp>
+    <comp ref="L10">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f804e</tstamps>
+    </comp>
+    <comp ref="L11">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fb99bb2</tstamps>
+    </comp>
+    <comp ref="L12">
+      <value>1.0uH</value>
+      <footprint>5uH_LISN:SMS1040</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Part number">SMS1040-1R0MT</field>
+        <field name="Footprint">5uH_LISN:SMS1040</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2208261700_LanTu-Micro-SMS1040-1R0MT_C5127478.pdf</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part number" value="SMS1040-1R0MT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8058</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>909R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">PTFR0805B909RP9</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="PTFR0805B909RP9"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2ea1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>909R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">PTFR0805B909RP9</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="PTFR0805B909RP9"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f809e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_1218_3246Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RC1218FK-071RL</field>
+        <field name="Footprint">Resistor_SMD:R_1218_3246Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RC1218FK-071RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ff0d1d2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1R</value>
+      <footprint>Resistor_SMD:R_1218_3246Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RC1218FK-071RL</field>
+        <field name="Footprint">Resistor_SMD:R_1218_3246Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RC1218FK-071RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8290</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>825R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07825RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07825RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2eb8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>825R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07825RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07825RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f80b5</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>12.1R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT1206BRD0712R1L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT1206BRD0712R1L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2ec2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>12.1R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT1206BRD0712R1L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT1206BRD0712R1L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f80bf</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RC1206JR-7W0RL</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RC1206JR-7W0RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fefce9d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RC1206JR-7W0RL</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RC1206JR-7W0RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8278</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>243R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07243RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07243RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2ecc</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>243R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07243RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07243RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f80c9</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RC1206JR-7W0RL</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RC1206JR-7W0RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fefd364</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RC1206JR-7W0RL</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RC1206JR-7W0RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8282</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>274R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07274RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07274RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2ed6</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>274R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07274RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07274RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f80d3</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>30.1R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">AR06DTDV30R1</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="AR06DTDV30R1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2ee0</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>30.1R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">AR06DTDV30R1</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="AR06DTDV30R1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f80dd</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>432R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07432RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07432RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2eea</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>432R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07432RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07432RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f80e7</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>432R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07432RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07432RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc300d</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>432R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07432RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07432RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f81ec</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>432R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07432RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07432RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2f2f</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>432R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07432RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07432RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f812c</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>432R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07432RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07432RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2f39</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>432R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07432RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07432RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8136</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>18.2R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT1206BRD0718R2L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT1206BRD0718R2L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2f43</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>18.2R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT1206BRD0718R2L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT1206BRD0718R2L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8140</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>562R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07562RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07562RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2f4d</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>562R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRD07562RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRD07562RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f814a</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>619R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRE07619RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRE07619RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fbc2f57</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>619R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Part number">RT0805BRE07619RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part number" value="RT0805BRE07619RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601f8154</tstamps>
+    </comp>
+    <comp ref="RF1">
+      <value>132360</value>
+      <footprint>5uH_LISN:RF_CAP</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2212141409_Amphenol-ICC-132360_C5242959.pdf</datasheet>
+      <description>RF 50 Ohm terminator</description>
+      <fields>
+        <field name="Part number">132360</field>
+        <field name="Footprint">5uH_LISN:RF_CAP</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2212141409_Amphenol-ICC-132360_C5242959.pdf</field>
+        <field name="Description">RF 50 Ohm terminator</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="RF" description="RF 50 Ohm CAP"/>
+      <property name="Part number" value="132360"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77c03280-f0dc-4541-a9bd-a378b1c07ba4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SMD75XM</value>
+      <footprint>Fuse:Fuse_1812_4532Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SURGING-SMD75XM_C527151.pdf</datasheet>
+      <description>Gas Discharge Tube with 2 Pins</description>
+      <fields>
+        <field name="Part number">SMD75XM</field>
+        <field name="Footprint">Fuse:Fuse_1812_4532Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SURGING-SMD75XM_C527151.pdf</field>
+        <field name="Description">Gas Discharge Tube with 2 Pins</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="SMD75XM" description="Gas Discharge Tube with 2 Pins"/>
+      <property name="Part number" value="SMD75XM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="GDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed2e3778-1658-4b7a-9ba2-c3b777f047fd</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SMD75XM</value>
+      <footprint>Fuse:Fuse_1812_4532Metric</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SURGING-SMD75XM_C527151.pdf</datasheet>
+      <description>Gas Discharge Tube with 2 Pins</description>
+      <fields>
+        <field name="Part number">SMD75XM</field>
+        <field name="Footprint">Fuse:Fuse_1812_4532Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SURGING-SMD75XM_C527151.pdf</field>
+        <field name="Description">Gas Discharge Tube with 2 Pins</field>
+      </fields>
+      <libsource lib="5uH_LISN" part="SMD75XM" description="Gas Discharge Tube with 2 Pins"/>
+      <property name="Part number" value="SMD75XM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5uH_LISN.kicad_sch"/>
+      <property name="ki_keywords" value="GDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc1d415d-150f-4bd4-bd1b-aa2eb3f67954</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Conn_Coaxial_1">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"> ~</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="5uH_LISN" part="BANANA_CONN">
+      <description>Changzhou Amass Elec</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BANANA_CONN</field>
+        <field name="Footprint">5uH_LISN:6,1-PAD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_1811031203_Changzhou-Amass-Elec-24-247-3_C309375.pdf</field>
+        <field name="Description">Changzhou Amass Elec</field>
+        <field name="Part number">28.230</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="5uH_LISN" part="RF">
+      <description>RF 50 Ohm CAP</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2212141409_Amphenol-ICC-132360_C5242959.pdf</docs>
+      <fields>
+        <field name="Reference">RF</field>
+        <field name="Value">132360</field>
+        <field name="Footprint">5uH_LISN:RF_CAP</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2212141409_Amphenol-ICC-132360_C5242959.pdf</field>
+        <field name="Description">RF 50 Ohm CAP</field>
+        <field name="Part number">132360</field>
+      </fields>
+    </libpart>
+    <libpart lib="5uH_LISN" part="SMD75XM">
+      <description>Gas Discharge Tube with 2 Pins</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SURGING-SMD75XM_C527151.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SMD75XM</field>
+        <field name="Footprint">Fuse:Fuse_1812_4532Metric</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SURGING-SMD75XM_C527151.pdf</field>
+        <field name="Description">Gas Discharge Tube with 2 Pins</field>
+        <field name="Part number">SMD75XM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="5uH_LISN-eagle-import" part="MOUNT-PAD-ROUND4.1">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MOUNT-PAD-ROUND4.1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="B4,1" name="MOUNT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"> ~</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Dual_Series_AKC_Parallel">
+      <description>Dual diode, anode/cathode/center</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Dual_Series_AKC_Parallel</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Dual diode, anode/cathode/center</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gainta" part="B013BK">
+      <description>B013BK, Housing for electronic equipment 114x64x30mm, metal, black</description>
+      <docs>https://static.chipdip.ru/lib/273/DOC000273998.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">B013BK</field>
+        <field name="Footprint">5uH_LISN:B013BK</field>
+        <field name="Datasheet">https://static.chipdip.ru/lib/273/DOC000273998.pdf</field>
+        <field name="Description">B013BK, Housing for electronic equipment 114x64x30mm, metal, black</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="5uH_LISN">
+      <uri>/home/xami/Desktop/Projects/EMC_5uH_LISN/5uH_LISN.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Gainta">
+      <uri>/home/xami/Desktop/Projects/EMC_5uH_LISN/Gainta.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="B4,1" pinfunction="MOUNT" pintype="passive"/>
+      <node ref="H2" pin="B4,1" pinfunction="MOUNT" pintype="passive"/>
+      <node ref="H3" pin="B4,1" pinfunction="MOUNT" pintype="passive"/>
+      <node ref="H4" pin="B4,1" pinfunction="MOUNT" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="L7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="L7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="L8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D1-A)">
+      <node ref="D1" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D2-A)">
+      <node ref="D2" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D3-A)">
+      <node ref="D3" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D4-A)">
+      <node ref="D4" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J4-P)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J5-P)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J6-P)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="L11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J7-P)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="L12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(L3-Pad2)">
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(L4-Pad2)">
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(L5-Pad2)">
+      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(L10-Pad1)">
+      <node ref="L10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(L10-Pad2)">
+      <node ref="L10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(L11-Pad1)">
+      <node ref="L11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

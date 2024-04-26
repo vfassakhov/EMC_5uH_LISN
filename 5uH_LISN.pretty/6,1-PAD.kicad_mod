@@ -1,9 +1,9 @@
-(footprint "4,1-PAD"
+(footprint "6,1-PAD"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "<b>MOUNTING PAD</b> 4.1 mm, round")
+	(descr "MOUNTING PAD 6.1 mm, round")
 	(property "Reference" "H4"
 		(at 0 0 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MOUNT-PAD-ROUND4.1"
+	(property "Value" "MOUNT-PAD-ROUND-6.1"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -64,21 +64,10 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
 	(fp_circle
 		(center 0 0)
-		(end 2.15 0)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "1f09315b-a2fe-4d4d-ad37-30910bf0481d")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 4.572 0)
+		(end 5.3 0.275)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -89,40 +78,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 5.08 0)
-		(stroke
-			(width 2)
-			(type solid)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "7456ed1a-d133-41f5-a9ef-8417d13c9cf0")
-	)
-	(fp_arc
-		(start 0 -2.54)
-		(mid 1.796051 -1.796051)
-		(end 2.54 0)
-		(stroke
-			(width 3.9116)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "4c247bd6-75a6-48d6-b73e-d672e562fb36")
-	)
-	(fp_arc
-		(start 0 2.54)
-		(mid -1.796051 1.796051)
-		(end -2.54 0)
-		(stroke
-			(width 3.9116)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "3c363b79-4840-4b16-8ddd-fe41ada4b1f0")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.762 0)
+		(end 2.325 0.325)
 		(stroke
 			(width 0.4572)
 			(type solid)
@@ -131,10 +87,21 @@
 		(layer "F.Fab")
 		(uuid "11f575ec-3159-4e7b-89c5-18c41c51b7fd")
 	)
-	(pad "B4,1" thru_hole circle
+	(fp_circle
+		(center 0 0)
+		(end 2.925 0.175)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1f09315b-a2fe-4d4d-ad37-30910bf0481d")
+	)
+	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 8 8)
-		(drill 4.1)
+		(size 10 10)
+		(drill 6.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.1016)

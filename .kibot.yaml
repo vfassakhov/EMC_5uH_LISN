@@ -1,0 +1,316 @@
+# KiBot config file
+# https://pypi.org/project/kibot
+
+kibot:
+  version: 1
+
+global:
+  set_text_variables_before_output: false
+  environment:
+    symbols: '/usr/share/kicad/symbols/'
+
+  filters:
+  - number: 20
+    regex:  'Malformed value'
+  - number: 13
+    regex:  'component in board, but not in schematic'
+  - number: 4
+    regex:  'Field conflict'
+
+preflight:
+  check_zone_fills: true
+  update_xml: true
+  set_text_variables:
+    - name: 'git_tag'
+      command: 'echo "${KICAD_SCHEME_VERSION}"'
+
+outputs:
+  - name: 'interactive_bom'
+    comment: "Interactive Bill of Materials (HTML)"
+    type: ibom
+    dir: BOM
+    options:
+      netlist_file: '%F.xml'
+      name_format: '_ibom_%p'
+      output: '%f_%r_%i.%x'
+      extra_fields: 'Part number,Datasheet'
+
+  - name: 'bom_xlsx'
+    comment: "Spreadsheet for the Bill of Materials"
+    type: bom
+    dir: BOM
+    options:
+      output: '%f_%r-%i.%x'
+      normalize_values: false
+      fit_field: 'Config'
+      ignore_dnf: true
+      ref_separator: ', '
+      no_conflict: 
+        - Value
+      xlsx:
+        datasheet_as_link: Datasheet
+        title: 'Bill of materials'
+        max_col_width: 40
+        highlight_empty: false
+        logo: false
+        col_colors: false
+      columns:
+        - Row
+        - References
+        - Quantity Per PCB
+        - field: 'Value'
+        - field: 'Part number'
+          name: Part number
+        - field: 'Datasheet'
+          name: Datasheet
+        - Footprint
+
+  - name: 'print_assembly'
+    comment: "Print Assembly top and bottom layers"
+    type: pcb_print
+    dir: Assembly
+    options:
+      output: '%f_%r-%i.%x'
+      # title: 'Fake title for front copper and silk'
+      # color_theme: _builtin_default
+      # drill_marks: small
+      # plot_sheet_reference: false
+      format: 'PDF'
+      # enable_ki6_frame_fix: true
+      keep_temporal_files: false
+      add_background: false
+      # background_color: "#C5C4BF"
+      # background_color: "#FFFFFF"
+      pages:
+        - monochrome: false
+          scaling: 1.0
+          #mirror: true
+          #title: Hola
+          sheet: Assembly Front
+          colored_holes: true
+          holes_color: "#e6fff2"
+          layers:
+            - layer: F.Cu
+              color: '#e6fff2'
+            - layer: F.Fab
+              color: '#000000'
+              suffix: 'TOP'
+            - layer: Edge.Cuts
+              suffix: Assembly
+              plot_footprint_refs: false
+              plot_footprint_values: false
+        - mirror: true
+          monochrome: false
+          sheet: Assembly Bottom
+          colored_holes: true
+          holes_color: "#e6fff2"
+          scaling: 1.0
+          layers:
+            - layer: B.Cu
+              color: '#e6fff2'
+            - layer: B.Fab
+              color: '#000000'
+              suffix: 'BOT'
+            - layer: Edge.Cuts
+              suffix: Assembly
+              plot_footprint_refs: false
+              plot_footprint_values: false
+
+
+  - name: 'Make Gerbers'
+    comment: "Gerbers for the board house"
+    type: gerber
+    dir: Gerbers
+    options:
+      output: '%f_%r-%i.%x'
+      # generic layer options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      use_aux_axis_as_origin: false
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+
+      # gerber options
+      line_width: 0.1
+      subtract_mask_from_silk: false
+      use_protel_extensions: false
+      gerber_precision: 4.6
+      create_gerber_job_file: false
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+
+    layers:
+      - layer: F.Cu
+        suffix: F_Cu
+      - layer: B.Cu
+        suffix: B_Cu
+      - layer: F.Paste
+        suffix: F_Paste
+      - layer: B.Paste
+        suffix: B_Paste
+      - layer: F.SilkS
+        suffix: F_SilkS
+      - layer: B.SilkS
+        suffix: B_SilkS
+      - layer: F.Mask
+        suffix: F_Mask
+      - layer: B.Mask
+        suffix: B_Mask
+      - layer: Edge.Cuts
+        suffix: Edge_Cuts
+      - layer: F.Fab
+        suffix: F_Fab
+      - layer: B.Fab
+        suffix: B_Fab
+
+  - name: 'Excellon_drill'
+    comment: "Excellon drill files"
+    type: excellon
+    dir: Gerbers
+    options:
+      output: '%f_%r-%i.%x'
+      metric_units: false
+      pth_and_npth_single_file: false
+      #use_aux_axis_as_origin: false
+      minimal_header: false
+      mirror_y_axis: false
+
+  - name: 'Gerber_drills'
+    comment: "Gerber drill files"
+    type: gerb_drill
+    dir: Gerbers
+    options:
+      output: '%f_%r-%i.%x'
+      use_aux_axis_as_origin: false
+
+  - name: 'Cu_Layer_PDF'
+    comment: "PDF files"
+    type: pdf
+    dir: Gerbers
+    options:
+      output: '%f_%r-%i.%x'
+      exclude_edge_layer: false
+      exclude_pads_from_silkscreen: false
+      #use_aux_axis_as_origin: false
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      #check_zone_fills: true
+      # PDF options
+      drill_marks: small
+      mirror_plot: false
+      negative_plot: false
+      line_width: 0.01
+    layers:
+      - layer: F.Cu
+        suffix: Top(First layer)
+      - layer: B.Cu
+        suffix: Bottom(Second layer)
+
+  - name: 'Board spec'
+    comment: "PDF files"
+    type: pdf
+    dir: Gerbers
+    options:
+      output: '%f_%r_Board_Technical_Specification.%x'
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: false
+      #use_aux_axis_as_origin: false
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      #check_zone_fills: true
+
+      # PDF options
+      drill_marks: small
+      mirror_plot: false
+      negative_plot: false
+      line_width: 0.01
+    layers:
+      - layer: User.Comments
+
+  - name: 'Gerbers'
+    comment: 'Compress Gerber files'
+    type: compress
+    dir: Gerbers
+    options:
+      move_files: true
+      output: '%f_%r-%i.%x'
+      format: ZIP
+      files:
+        - from_output: 'Make Gerbers'
+          from_cwd: false
+          dest: Gerbers/
+        - from_output: 'Excellon_drill'
+          from_cwd: false
+          dest: Gerbers/
+        - from_output: 'Gerber_drills'
+          from_cwd: false
+          dest: Gerbers/
+        - from_output: 'Cu_Layer_PDF'
+          from_cwd: false
+          dest: /
+        - from_output: 'Board spec'
+          from_cwd: false
+          dest: /
+
+  - name: 'position'
+    comment: "Pick and place file"
+    type: position
+    dir: Position
+    options:
+      output: '%f_%r-%i.%x'
+      columns:
+        - id: 'Ref'
+          name: 'Designator'
+        - id: 'PosX'
+          name: 'Mid X'
+        - id: 'PosY'
+          name: 'Mid Y'
+        - id: 'Side'
+          name: 'Layer'
+        - id: 'Rot'
+          name: 'Rotation'
+      format: CSV   # CSV or ASCII format
+      units: millimeters  # millimeters or inches
+      separate_files_for_front_and_back: false
+      only_smd: false
+
+  - name: 'step'
+    comment: "Generate 3D model (STEP)"
+    type: step
+    dir: 3D
+    options:
+      output: '%f_%r-%i.%x'
+      kicad_3d_url: 'https://gitlab.com/kicad/libraries/kicad-packages3D/-/tree/master/'
+      metric_units: true
+
+  - name: "3D render of the PCB"
+    type: render_3d
+    dir: ..
+    options:
+      zoom: -2
+      show_comments: false
+      realistic: true
+      show_eco: false
+      show_silkscreen: true
+      no_virtual: false
+      output: '%f.%x'
+      width: 3840
+      height: 2160
+      solder_mask: '#1F4B20D4'
+      kicad_3d_url: 'https://gitlab.com/kicad/libraries/kicad-packages3D/-/tree/master/'
+
+  - name: 'print_sch'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: .
+    options:
+      output: '%f_%r_%i.%x'
